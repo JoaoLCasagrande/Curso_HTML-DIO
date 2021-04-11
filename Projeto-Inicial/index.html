@@ -12,13 +12,13 @@
             }
             
             body{
-                background-color: #ff0000;
+                background-color: #4f4f4f;
             }
 
             .separar{
                 width: 100%;
                 height: 50px;
-                background-color: #8b0000;
+                background-color: #6a5acd;
             }
             
             header{
@@ -40,6 +40,7 @@
                 margin-left: 20px;
                 width: 920px;
                 float: left;
+                border: 3px solid #ffffff;
             }
 
             .barra{
@@ -81,7 +82,7 @@
             .dados_desenv{
                 margin-top: 100px;
 
-                border-left: 10px solid #904567;
+                border-left: 10px solid #796161;
                 
                 margin-left: 150px;
                 border-top-left-radius: 10px;
@@ -89,7 +90,7 @@
             }
 
             .inform{
-                color: #9f19b1;
+                color: #000000;
                 font-size: 15px;
             }
 
@@ -99,34 +100,60 @@
                 margin-right: 215px;
                 height: 500px;
                 border-radius: 25px;
+                border: 3px solid #ffffff;
             }
 
-            .letras{
-                color: #ffffff;
+            #meu_nome{
+                text-decoration: underline;
             }
 
+            #lista-ul-1{
+                list-style-type: square;
+                margin-left: 15px;
+            }
+
+            ol{
+                list-style-type: upper-roman;
+                float: right;
+                margin-top: -70px;
+                margin-right: 550px;
+            }
+
+            #lista-ul-2{
+                list-style-type: "\1f44d";
+                float: right;
+                margin-top: -70px;
+                margin-right: 280px;
+            }
+
+            #lista-ul-3{
+                list-style-type: "\1f393";
+                float: right;
+                margin-top: -70px;
+                margin-right: -325px;
+            }
         </style>
     </head>
 
     <body>
         <header>
-            <h1 class="letras">João Luiz Casagrande</h1>
+            <h1>João Luiz Casagrande</h1>
         </header>
 
         <section>
             <header>
-                <h2 class="letras">Posts</h2>
+                <h2>Posts</h2>
             </header>
             <article>
                 <header>
-                    <h3 class="letras">Post #1</h3>
+                    <h3>Post #1</h3class=>
                 </header>
             </article>     
         </section>
         <footer class="separar"></footer>
-        <p class="letras">
-            Olá, meu nome é <b>João Luiz Casagrande</b> e aqui estão algumas informações sobre mim:
-        </p>
+        <p>
+            Olá, meu nome é <b id="meu_nome">João Luiz Casagrande</b> e aqui estão algumas informações sobre mim:
+        </pclass=>
         
         <div id="borda">
         <div class="informações">
@@ -176,13 +203,33 @@
                 </table>
             </div>
 
-            <ul>
+            <ul id="lista-ul-1">
                 <li>CSS</li>
                 <li>Table</li>
                 <li>Html</li>
                 <li>a (href)</li>
             </ul>
 
+            <ol>
+                <li>CSS</li>
+                <li>Table</li>
+                <li>Html</li>
+                <li>a (href)</li>
+            </ol>
+
+            <ul id="lista-ul-2">
+                <li>CSS</li>
+                <li>Table</li>
+                <li>Html</li>
+                <li>a (href)</li>
+            </ul>
+
+            <ul id="lista-ul-3">
+                <li>CSS</li>
+                <li>Table</li>
+                <li>Html</li>
+                <li>a (href)</li>
+            </ul>
         </div>
         </div>
     </body>
