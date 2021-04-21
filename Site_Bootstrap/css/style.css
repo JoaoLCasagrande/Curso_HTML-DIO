@@ -18,3 +18,17 @@
     margin-top: 5px;
     padding-top: 5px;
 }
+
+.servicos{
+    background-color: #fffc68;
+    margin-top: 5px;
+    padding-top: 5px;
+}
+
+.servicos img{
+    padding-bottom: 20px;
+}
+
+.bg-footer{
+    color: #ffffff;
+}
